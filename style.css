@@ -124,3 +124,20 @@ section h1 {
 section hr {
     margin-bottom: 40px;
 }
+
+#news ul {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    list-style: none;
+}
+
+#news ul span {
+    font-size: 12px;
+    color:gray;
+    padding: 20px 0;
+}
+
+#news ul li {
+    font-size: 18px;
+    padding: 20px 0;
+}
