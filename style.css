@@ -194,3 +194,10 @@ section hr {
     color: #252525;
     border: 1px solid #252525;
 }
+
+footer {    
+    padding: 100px;
+    text-align: center;
+    background: #252525;
+    color: white;
+}
