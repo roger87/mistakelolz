@@ -141,3 +141,19 @@ section hr {
     font-size: 18px;
     padding: 20px 0;
 }
+
+#news div {
+    text-align: right;
+}
+
+#news a {
+    text-decoration: none;
+    color:#252525;
+}
+
+#contact p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2.5;
+}
