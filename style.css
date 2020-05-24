@@ -157,3 +157,40 @@ section hr {
     text-align: center;
     line-height: 2.5;
 }
+
+#contact form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#contact form div {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-gap: 20px;
+    padding-right: 20px;
+}
+
+#contact form textarea {
+    grid-column: 1 / 3;
+    height: 200px;
+}
+
+#contact input {
+    text-align: center;
+    padding: 10px;
+}
+
+#contact input[type="submit"] {
+    width: 300px;
+    background-color: #252525;
+    color: white;
+    margin: 10px 0;
+    border: 0;
+    transition: 0.3s;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: white;
+    color: #252525;
+    border: 1px solid #252525;
+}
